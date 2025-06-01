@@ -1,4 +1,4 @@
-const Car = require('../../backend/models/Car');
+const Car = require('./models/Car');
 
 
 exports.getCars=async(req,res)=>{

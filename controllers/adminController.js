@@ -1,5 +1,5 @@
-const Admin = require('../../backend/models/admin');
-const user=require('../models/user')
+const Admin = require('./models/admin');
+const user=require('./models/user')
 const jwt = require('jsonwebtoken');
 const SECRET = 'yourSecretKey'; // You should use process.env.SECRET in production
 
