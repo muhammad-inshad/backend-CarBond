@@ -1,7 +1,7 @@
-const User = require('./models/user');
+const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 const SECRET = 'yourSecretKey'; // Move this to .env in production
-const car=require('./models/Car')
+const car=require('../models/Car')
 
 // Register user
 exports.addUser = async (req, res) => {
