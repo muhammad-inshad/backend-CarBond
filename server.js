@@ -2,7 +2,7 @@ const express=require('express')
 const mongoose=require('mongoose')
 const cors=require('cors')
 require('dotenv').config()
-const carRoutes=require('../backend/routes/carRoutes')
+const carRoutes=require('../../backend/routes/carRoutes')
 
 const app=express();
 
