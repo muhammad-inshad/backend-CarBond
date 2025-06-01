@@ -24,6 +24,7 @@ exports.addUser = async (req, res) => {
   }
 };
 
+
 // Login user
 exports.login = async (req, res) => {
   try {
